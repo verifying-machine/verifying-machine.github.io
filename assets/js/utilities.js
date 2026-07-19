@@ -205,7 +205,7 @@ function platoTextToCmj(platoText) {
   if (typeof machineConfig !== 'undefined' && machineConfig && typeof machineConfig.name === 'string' && machineConfig.name.trim() !== '') {
       effectiveAssistantNameUpper = machineConfig.name.toUpperCase();
   } else {
-      effectiveAssistantNameUpper = 'THINGKING-MACHINE'; // Fallback to original literal for this function
+      effectiveAssistantNameUpper = 'VERIFYING-MACHINE'; // Fallback to original literal for this function
   }
 
   messageBlocks.forEach(block => {

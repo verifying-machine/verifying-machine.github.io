@@ -1,1 +1,1 @@
-### Thingking Machine
+### Verifying Machine
